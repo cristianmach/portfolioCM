@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 
 interface NasaData {
     explanation: string;
+    date: string; // Ajusta el tipo según el tipo real de la fecha en los datos de la API
     // Otras propiedades según la estructura de los datos de la API
 }
+
 
 export default function useDataNasa() {
     const key = "Bth3oI3966ZwVnpVr6XRDKvkEcsegMRlpNx0XLTj";
