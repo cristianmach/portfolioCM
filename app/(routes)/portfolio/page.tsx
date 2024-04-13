@@ -21,7 +21,7 @@ const PortfolioPage = () => {
 
                     <div className="relative z-10 grid max-w-5xl gap-6 justify-center text-center mx-auto mt-2 md:grid-cols-2 lg:md:grid-cols-4">
                         {dataPortfolio.map((data) => (
-                            <PortfolioBox key={data.id} data={data} /> // Siempre que se hace un map, es necesario darle un Key unico, en este caso le pasamos id
+                            <PortfolioBox key={data.id} data={data} /> 
                         ))}
                     </div>
                 </div>

@@ -9,7 +9,6 @@ import TimeLine from "@/components/time-line";
 
 const PageAboutme = () => {
     return (
-        // <> </> eso se llama fragment en React
         <> 
             <CoverParicles />
             <TransitionPage />

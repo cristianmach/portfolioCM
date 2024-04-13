@@ -27,7 +27,6 @@ const CoverParicles = () => {
 
     return (
         init && 
-        // se mete dentro de un div para solucionar un error que los particles traen for defoult
         <div className= "w-[0px]">
             <Particles
             id="tsparticles"

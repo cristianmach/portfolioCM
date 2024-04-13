@@ -7,7 +7,7 @@ import Header from "@/components/header"
 const urbanist = Urbanist({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cristian LP", //Nombre de la Pagina
+  title: "Cristian LP", 
   description: "Landing Page made by Cristian",
 };
 
@@ -18,6 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/img/logoSWeb.png"/>
+      </head>
       <body className={urbanist.className}>
         <Navbar />
         <Header />

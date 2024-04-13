@@ -18,7 +18,6 @@ const ServicesPage = () => {
                     <TextServices />
                 </div>
 
-                {/* SLIDER */}
                 <div>
                     <SliderServices />
                 </div>
