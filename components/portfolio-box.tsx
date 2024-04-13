@@ -10,13 +10,12 @@ interface PortfolioBoxProps {
         title: string,
         image: string,
         urlGithub: string,
-        urlDemo: string
     }
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
     const { data } = props;
-    const { id, title, image, urlDemo, urlGithub } = data;
+    const { id, title, image, urlGithub } = data;
     const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
     const [isHovered, setIsHovered] = useState(false);
 
