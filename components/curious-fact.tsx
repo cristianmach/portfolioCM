@@ -17,15 +17,16 @@ export default function NewData () {
     const { explanation } = dataUrl[currentDataIndex];
     const { title } = dataUrl[currentDataIndex];
 
-    const firstDotIndex = explanation.indexOf('.'); //se utiliza para encontrar la posición de la primera ocurrencia de un carácter dentro de una cadena.
+    const explanationString = String(explanation); // Forzar la conversión a cadena
+    const firstDotIndex = explanationString.indexOf('.'); // Utilizar la cadena forzada
     let moreThan;
     let truncatedExplanation;
 
     if (firstDotIndex <= 50) {
-        truncatedExplanation = explanation.substring(0, firstDotIndex + 1) // cadena.substring(inicio, fin) basicamente devulve algo entre dos paremetros
+        truncatedExplanation = explanationString.substring(0, firstDotIndex + 1); // Utilizar la cadena forzada
     } else {
-        moreThan = explanation.substring(0, 50)
-        truncatedExplanation = `${moreThan}...`
+        moreThan = explanationString.substring(0, 50); // Utilizar la cadena forzada
+        truncatedExplanation = `${moreThan}...`;
     }
     
     return (
