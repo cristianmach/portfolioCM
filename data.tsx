@@ -274,7 +274,7 @@ export const dataPortfolio = [
         id: 1,
         title: "Web portfolio",
         image: "/img/portfolio.png",
-        urlGithub: "https://github.com/cristianmach/AmpackCommerce.git",
+        urlGithub: "https://github.com/cristianmach/portfolioCM.git",
     },
     {
         id: 2,
