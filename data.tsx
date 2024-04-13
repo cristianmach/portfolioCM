@@ -15,7 +15,7 @@ export const socialNetworks = [
     {
         id: 3,
         logo: <Mail size={25} strokeWidth={1} />,
-        src: "https://mail.google.com/mail/u/0/?ogbl#inbox?compose=DmwnWsmGVWmPDvpKKXqqtbVFJLHXRtxjZjsQDrWqCwzdNmHNKLmtNKDKpQKxJTVvkHmHCcdqFzZq",
+        src: "https://mail.google.com/mail/u/0/?ogbl#inbox?compose=cristiandevmg@gmail.com",
     },
     {
         id: 4,
