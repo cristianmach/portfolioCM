@@ -9,7 +9,7 @@ const TitlePortfolio = () => {
                     'Mis proyectos',
                     15000,
                     'My projects',
-                    15000,
+                    900000,
                 ]}
                 wrapper="span"
                 speed={45}

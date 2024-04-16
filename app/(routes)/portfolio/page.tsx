@@ -15,7 +15,7 @@ const PortfolioPage = () => {
         <div className="flex min-h-[100vh] h-full bg-no-repeat bg-gradient-cover">
             <ContainerPage >
                 <TransitionPage />
-                <div className="flex flex-col justify-center items-center  content-center">
+                <div className="flex -mt-2 mb-28 flex-col justify-center items-center  content-center">
                     
                     <TitlePortfolio />
 

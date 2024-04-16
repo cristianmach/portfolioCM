@@ -15,10 +15,10 @@ const Introduction = () => {
                     <h1 className=" text-xl text-center md:text-2xl lg:text-4xl text-secondary font-bold">
                         <TypeAnimation
                             sequence={[
-                                '¡Hello, I am Cristian!',
-                                15000,
                                 '¡Hola, yo soy Cristian!',
                                 15000,
+                                '¡Hello, I am Cristian!',
+                                900000,
                             ]}
                             wrapper="span"
                             speed={45}
@@ -30,10 +30,10 @@ const Introduction = () => {
                     <div>
                         <TypeAnimation
                                 sequence={[
-                                    'Welcome to my website, which was designed so that people interested in my knowledge can contact me and get to know a bit about my skills as a software developer. My portfolio was primarily designed with NextJS, Tailwind CSS, however, those are not my only areas of expertise. I invite you to take a look at my website and discover more about me.',
+                                    'Bienvenidos a mi página web, aquí podrás conocer mis habilidades como desarrollador de software y contactarme fácilmente. Mi portafolio, fue creado con NextJS y Tailwind CSS, y muestra parte de mi trabajo, pero hay mucho más por descubrir. ¡Explora y conoce más sobre mí!',
                                     1500,
-                                    'Bienvenidos a mi página web la cual fue diseñada para que las personas interesadas en mi conocimiento puedan contactarme, y conocer un poco de mis habilidades como desarrollador de software. Mi portafolio fue diseñado principalmente con NextJS, Tailwind CSS, sin embargo, esos no son mis únicos conocimientos. Te invito a echar un vistazo a mi página web y descubrir más de mí.',
-                                    1500,
+                                    'Welcome to my website, here you can learn about my skills as a software developer and easily get in touch with me. My portfolio was created with NextJS and Tailwind CSS, showcasing some of my work, but there is much more to discover. Explore and learn more about me!',
+                                    900000,
                                 ]}
                                 wrapper="span"
                                 speed={75}

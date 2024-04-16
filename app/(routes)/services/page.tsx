@@ -13,7 +13,7 @@ const ServicesPage = () => {
             <CoverParicles />
             <TransitionPage />
             <AvatarServices />
-            <div className="grid lg:gap-x-32 lg:ml-28 items-center  mt-72 content-center md:mt-64 justify-items-center md:justify-items-end max-w-5xl  px-16">
+            <div className="grid lg:gap-x-32 lg:ml-28 items-center  mt-72 content-center md:mt-64 justify-items-center md:justify-items-end max-w-5xl md:mb-96 mb-60 px-16">
                 <div className="md:justify-self-start">
                     <TextServices />
                 </div>

@@ -6,10 +6,10 @@ const TitleAboutMe = () => {
         <div className='text-secondary font-bold text-2xl leading-tight text-center md:text-left lg:text-4xl md:text-3xl px-20'>
             <TypeAnimation
                 sequence={[
-                    'Professional Profile...',
-                    15000,
                     'Perfil Profesional...',
                     15000,
+                    'Perfil Profesional...',
+                    900000,
                 ]}
                 wrapper="span"
                 speed={45}

@@ -13,10 +13,12 @@ const PageAboutme = () => {
             <CoverParicles />
             <TransitionPage />
             <ContainerPage>
-                <Avatar />
-                <TitleAboutMe />                    
-                <CounterServices />
-                <TimeLine />
+                <div className="mb-32 md:mb-20">
+                    <Avatar />
+                    <TitleAboutMe />                    
+                    <CounterServices />
+                    <TimeLine />
+                </div>
             </ContainerPage>
         </>
     );
